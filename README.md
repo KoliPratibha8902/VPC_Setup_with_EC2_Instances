@@ -1,5 +1,7 @@
-# VPC_Setup_with_EC2_Instances
+## VPC_Setup_With_EC2_Instances
+
 *About the Project*
+
 This example demonstrates how to create a VPC that which can be use for servers in a production environment.
 To improve resiliency, I deploy the servers in two Availability Zones, by using an Auto Scaling group and an Application Load Balancer. 
 For additional security, I deploy the servers in private subnets. The servers receive requests through the load balancer. The servers can connect to the internet by using a NAT gateway. 
@@ -17,7 +19,7 @@ To improve resiliency, which deploy the NAT gateway in both Availability Zones.
 - Target Group
 - Bastion Host or Jump Server
   
-## Project Path:
+### Project Path:
 
 1. Design and configure a VPC: Create a VPC with custom IP ranges. Set up public and private subnets. Configure route tables and associate subnets.
 
@@ -31,5 +33,6 @@ To improve resiliency, which deploy the NAT gateway in both Availability Zones.
 
 6. Test and validate the setup: SSH into the EC2 instances using the private key and verify connectivity. Test network connectivity between instances in different subnets. Validate security group rules and network ACL settings.
 
+![Architecture_Dig.](VPC_Project.jpg)
+
 *By implementing this project, you'll gain hands-on experience in setting up a secure VPC with EC2 instances, implementing networking and routing, configuring security groups and IAM roles, and ensuring proper access control. This project will provide a practical understanding of how these AWS services work together to create a secure and scalable infrastructure for your applications.*
-![Architecture_Dig.]()
