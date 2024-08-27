@@ -35,4 +35,4 @@ To improve resiliency, which deploy the NAT gateway in both Availability Zones.
 
 ![Architecture_Dig.](VPC_Project.jpg)
 
-*By implementing this project, you'll gain hands-on experience in setting up a secure VPC with EC2 instances, implementing networking and routing, configuring security groups and IAM roles, and ensuring proper access control. This project will provide a practical understanding of how these AWS services work together to create a secure and scalable infrastructure for your applications.*
+*By implementing this project, i gain hands-on experience in setting up a secure VPC with EC2 instances, implementing networking and routing, configuring security groups and IAM roles, and ensuring proper access control. This project will provide a practical understanding of how these AWS services work together to create a secure and scalable infrastructure for an applications.*
